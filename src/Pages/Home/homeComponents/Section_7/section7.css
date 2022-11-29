@@ -42,6 +42,7 @@
     /* color: gray; */
 }
 .s7-grid{
+    /* background-color: #d83030; */
     display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   /* background-color: aqua; */

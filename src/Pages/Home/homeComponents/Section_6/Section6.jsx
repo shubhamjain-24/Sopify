@@ -16,8 +16,14 @@ const Section6 = () => {
             </div>
         </div>
         <div className="s6-frontContainer">
-
+          <div className="s6-frontContainerText">
+            Let's upgrade your future together.
+          </div>
+          <div className="s6-frontContainerButton">
+            <button className='s6-button'>Contact Now</button>
+          </div>
         </div>
+        
     </div>
     </>
   )

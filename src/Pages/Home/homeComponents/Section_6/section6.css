@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center; */
     position: relative;
+    height: 650px;
     /* margin-top: 190px; */
 }
 .s6-backContainer{
@@ -10,7 +11,7 @@
     width: 100%;
     display: flex;
     position: absolute;
-    z-index: -1;
+    /* z-index: -1; */
 }
 .s6-backLeft{
     width: 50%;
@@ -31,10 +32,44 @@
 .s6-frontContainer{
     position: absolute;
     z-index: 9;
-    width: 40%;
-    height: 300px;
+    width: 45%;
+    height: 320px;
     background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(0, 0, 0);
-    margin-top: 220px;
-    margin-left: 500px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    margin-top: 210px;
+    margin-left: 420px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.s6-frontContainerText{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 54.6px;
+    color: rgb(3, 46, 66);
+    font-family: "Poppins", sans-serif;
+    /* border: 1px solid red; */
+    width: 80%;
+    text-align: center;
+}
+.s6-button{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #d82f30;
+    border: none;
+    width: 170px;
+    height: 60px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.s6-button:hover{
+    background-color: #d15252;
+    transition: 0.7s ease-in-out;
 }
