@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import "./footer2.css";
 import logo from "../../Images/footerLogo.png";
 import img1 from "../../Images/footer-img1.jpg";
 import img2 from "../../Images/s7-img2.jpg";
@@ -10,14 +10,15 @@ import svg3 from "../../Images/gmail.svg";
 import svg4 from "../../Images/insta.svg";
 import svg5 from "../../Images/whatsapp.svg";
 
-const Footer = () => {
+const footer2 = () => {
   return (
     <>
-      <div className="footer-mainContaier">
-        <div className="footer-grid">
-          <div className="footer-col1">
-            <div className="footer-col1ImgContainer">
-              <img className="footer-col1Img" src={logo} alt="" />
+      <div className="footer2-mainContaier">
+      {/* <hr className="line" /> */}
+        <div className="footer2-grid">
+          <div className="footer2-col1">
+            <div className="footer2-col1ImgContainer">
+              <img className="footer2-col1Img" src={logo} alt="" />
             </div>
             <p>
               SOPify is a one of a kind startup. SOPify is by the student for
@@ -25,11 +26,11 @@ const Footer = () => {
               life goals by getting them admitted to the universities they
               desire.
             </p>
-            <div className="footer-buttonContainer">
-              <button className="footer-button">READ MORE</button>
+            <div className="footer2-buttonContainer">
+              <button className="footer2-button">READ MORE</button>
             </div>
           </div>
-          <div className="footer-col2">
+          <div className="footer2-col2">
             <h3 className="col2Heading">Quick Links</h3>
             <div className="col2-valueContainer">
             <span  class="material-symbols-outlined ">chevron_right</span>
@@ -66,7 +67,7 @@ const Footer = () => {
               <p className="col2-valeContainerText">Contact Us</p>
             </div>
           </div>
-          <div className="footer-col3">
+          <div className="footer2-col3">
             <h3 className="col3-headText">Blogs</h3>
             <div className="col3-container">
               <img className="col3-image" src={img1} alt="" srcset="" />
@@ -85,7 +86,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="footer-col4">
+          <div className="footer2-col4">
             <h3 className="col4-headText">Contact Info</h3>
             <div className="col4-valueContainer">
               <span class="material-symbols-outlined">pin_drop</span>
@@ -105,7 +106,7 @@ const Footer = () => {
           </div>
         </div>
         <hr className="line" />
-        <div className="footer-col5">
+        <div className="footer2-col5">
           <div className="col5-mainContainer">
             <p className="col5-text">© Copyright 2022 SOPify.</p>
             <div className="col5-logoContainer">
@@ -122,4 +123,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default footer2;
