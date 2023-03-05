@@ -7,7 +7,7 @@ const AU_Section2 = () => {
     <>
     <div className="AU_section2_mainContainer">
     <div className="AU_section2_gridContainer">
-      <div className="AU_section2_gridContainerDiv">
+      <div className="AU_section2_gridContainerDiv1">
         <div className="AU_section2_gridContainerDiv_text">
 
         <p > <span style={{fontWeight:"bold"}}>SOPify is a one-of-a-kind startup. &nbsp;</span> 
@@ -22,7 +22,7 @@ const AU_Section2 = () => {
         </p>
         </div>
       </div>
-      <div className="AU_section2_gridContainerDiv">
+      <div className="AU_section2_gridContainerDiv2">
         <img className='AU_section2_gridContainerDiv-img' src={img1} alt="" />
       </div>
     </div>

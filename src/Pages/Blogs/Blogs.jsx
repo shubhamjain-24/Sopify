@@ -2,12 +2,22 @@ import React from 'react'
 import Footer from '../../Components/Footer/Footer'
 import B_Section2 from './Section 2/B_Section2'
 import B_Section1 from './Section1/B_Section1'
-
-const Blogs = () => {
+import './Blogs.css'
+// import {blogList} from '../../Config/data'
+import Navbar from '../../Components/Navbar/Navbar'
+const Blogs = ({blogs}) => {
   return (
     <>
+    
+    <Navbar/>
     <B_Section1/>
-    <B_Section2/>
+    <div className="blog-wrap">
+
+    {/* <B_Section2/> */}
+    {blogs.map(blog=>
+            <B_Section2 blog={blog} key={blog.id}/>
+        )}
+    </div>
     <Footer/>
     </>
   )

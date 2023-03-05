@@ -46,7 +46,7 @@ const AU_Section3 = () => {
               </div>
             </div>
           </div>
-          <div className="AU_section3_gridContainerDiv">
+          <div  className="AU_section3_gridContainerDiv ">
             <div className="AU_section3_gridContainerText">
               <p className="AU_section3_gridContainerText1">OUR VISION</p>
               <p  style={{fontSize:"17px"}} className="AU_section3_gridContainerText2">

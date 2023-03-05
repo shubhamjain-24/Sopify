@@ -1,10 +1,15 @@
 .AU_section5_mainContainer {
   margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .AU_section5_TextContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .AU_section5_TextContainer-Text1 {
   font-family: "Poppins", "sans-serif";
@@ -28,7 +33,7 @@
   /* grid-auto-rows: 755px; */
   margin-top: 50px;
   width: 80%;
-  margin-left: 180px;
+  /* margin-left: 180px; */
   gap: 20px;
 }
 .AU_section5_gridContainerDiv {
@@ -64,4 +69,11 @@
   font-size: 14px;
   font-weight: 400;
   color: rgb(85, 85, 85);
+}
+
+
+@media screen and (max-width: 450px){
+  .AU_section5_TextContainer-Text2{
+    font-size: 24px;
+  }
 }

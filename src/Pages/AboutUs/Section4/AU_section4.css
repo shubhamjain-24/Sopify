@@ -1,16 +1,26 @@
 .AU_section4_mainContainer{
     background: url('../../../Images/aboutUs-img3.jpeg');
     height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
 }
 .AU_section4_gridContainer{
       /* background-color: rgb(137, 125, 125); */
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      /* display: grid; */
+      /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
       /* grid-auto-rows: 755px; */
-      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: -70px;
       width: 80%;
-      margin-left: 180px;
-      gap: 20px;
+}
+.AU_section4_gridContainerDiv{
+    padding: 20px;
+    margin: 0 30px;
 }
 .AU_section4_gridContainerDivText{
     display: flex;
@@ -35,4 +45,19 @@
     line-height: 18px;
     color: white;
     margin-top: 10px;
+}
+@media screen and (max-width: 1250px){
+    .AU_section4_gridContainerDiv{
+        margin: 0px 10px;
+    }
+}
+@media screen and (max-width: 1055px){
+    .AU_section4_gridContainerDiv{
+        margin: 0px 5px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .AU_section4_mainContainer{
+       height: 40%;
+    }
 }

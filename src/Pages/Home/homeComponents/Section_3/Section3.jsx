@@ -4,6 +4,7 @@ import img1 from "../../../../Images/s3-img1.jpg";
 import img2 from "../../../../Images/s3-img2.jpg";
 import img3 from "../../../../Images/s3-img3.jpg";
 import pencil from "../../../../Images/pencil.png";
+import { NavLink } from "react-router-dom";
 
 const Section3 = () => {
   return (
@@ -24,48 +25,58 @@ const Section3 = () => {
           </div>
         </div>
         <div className="s3-grid">
+          <NavLink className="Navlink" to="/sop">
+            <div className="s3-card1">
+              <div className="s3-pecilDiv">
+                <div className="s3-cardImg">
+                  <img className="s3-mainImage" src={img1} alt="" srcset="" />
+                </div>
+                <div className="s3-pencil">
+                  <img className="s3-pencilSvg" src={pencil} alt="" srcset="" />
+                </div>
+              </div>
+
+              <div className="s3-cardText1">SOP</div>
+              <div className="s3-cardText2">
+                Writing non-plagiarised Statement of Purpose for University
+                admissions, Visa approvals, scholarships, and more.
+              </div>
+            </div>
+          </NavLink>
+          <NavLink className="Navlink" to="/lor">
+            <div className="s3-card1">
+              <div className="s3-pecilDiv">
+                <div className="s3-cardImg">
+                  <img className="s3-mainImage" src={img2} alt="" srcset="" />
+                </div>
+                <div className="s3-pencil">
+                  <img className="s3-pencilSvg" src={pencil} alt="" srcset="" />
+                </div>
+              </div>
+              <div className="s3-cardText1">LOR</div>
+              <div className="s3-cardText2">
+                Letter of Recommendation for strengthening your University
+                applications or job profiles.
+              </div>
+            </div>
+          </NavLink>
+          <NavLink className="Navlink" to="/assignment">
+
           <div className="s3-card1">
-            <div className="s3-cardImg">
-              <img className="s3-mainImage" src={img1} alt="" srcset="" />
+            <div className="s3-pecilDiv">
+              <div className="s3-cardImg">
+                <img className="s3-mainImage" src={img3} alt="" srcset="" />
+              </div>
+              <div className="s3-pencil">
+                <img className="s3-pencilSvg" src={pencil} alt="" srcset="" />
+              </div>
             </div>
-            <div className="s3-pencil">
-              <img className="s3-pencilSvg" src={pencil} alt="" srcset="" />
-            </div>
-            <div className="s3-cardText1">
-              SOP
-            </div>
+            <div className="s3-cardText1">Assignments</div>
             <div className="s3-cardText2">
-            Writing non-plagiarised Statement of Purpose for University admissions, Visa approvals, scholarships, and more.
+              Providing well-researched and structured University assignments.
             </div>
           </div>
-          <div className="s3-card1">
-            <div className="s3-cardImg">
-              <img className="s3-mainImage" src={img2} alt="" srcset="" />
-            </div>
-            <div className="s3-pencil">
-              <img className="s3-pencilSvg" src={pencil} alt="" srcset="" />
-            </div>
-            <div className="s3-cardText1">
-            LOR
-            </div>
-            <div className="s3-cardText2">
-            Letter of Recommendation for strengthening your University applications or job profiles.
-            </div>
-          </div>
-          <div className="s3-card1">
-            <div className="s3-cardImg">
-              <img className="s3-mainImage" src={img3} alt="" srcset="" />
-            </div>
-            <div className="s3-pencil">
-              <img className="s3-pencilSvg" src={pencil} alt="" srcset="" />
-            </div>
-            <div className="s3-cardText1">
-            Assignments
-            </div>
-            <div className="s3-cardText2">
-            Providing well-researched and structured University assignments.
-            </div>
-          </div>
+          </NavLink>
         </div>
       </div>
     </>

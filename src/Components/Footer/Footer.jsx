@@ -9,6 +9,7 @@ import svg2 from "../../Images/linkdin.svg";
 import svg3 from "../../Images/gmail.svg";
 import svg4 from "../../Images/insta.svg";
 import svg5 from "../../Images/whatsapp.svg";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -29,60 +30,93 @@ const Footer = () => {
               <button className="footer-button">READ MORE</button>
             </div>
           </div>
-          <div className="footer-col2">
+         
+          <div className="footer2-col2">
             <h3 className="col2Heading">Quick Links</h3>
             <div className="col2-valueContainer">
-            <span  class="material-symbols-outlined ">chevron_right</span>
+              <span class="material-symbols-outlined footarrow">chevron_right</span>
+            <NavLink  className="Navlink2" to="/home">
               <p className="col2-valeContainerText">Home</p>
+            </NavLink>
             </div>
             <div className="col2-valueContainer">
-            <span  class="material-symbols-outlined ">chevron_right</span>
+              <span class="material-symbols-outlined footarrow">chevron_right</span>
+              <NavLink  className="Navlink2" to="/services">
               <p className="col2-valeContainerText">Services</p>
+              </NavLink>
             </div>
             <div style={{ marginLeft: "22px" }} className="col2-valueContainer">
-            <span  class="material-symbols-outlined ">chevron_right</span>
+              <span class="material-symbols-outlined  footarrow">chevron_right</span>
+              <NavLink  className="Navlink2" to="/sop">
+
               <p className="col2-valeContainerText">SOP:Statement of Purpose</p>
+              </NavLink>
             </div>
             <div style={{ marginLeft: "22px" }} className="col2-valueContainer">
-            <span  class="material-symbols-outlined ">chevron_right</span>
+              <span class="material-symbols-outlined footarrow">chevron_right</span>
+              <NavLink  className="Navlink2" to="/lor">
+
               <p className="col2-valeContainerText">
                 LOR: Letter of Recommendation
               </p>
+              </NavLink>
             </div>
             <div style={{ marginLeft: "22px" }} className="col2-valueContainer">
-            <span  class="material-symbols-outlined ">chevron_right</span>
+              <span class="material-symbols-outlined footarrow">chevron_right</span>
+              <NavLink  className="Navlink2" to="/assignment">
+
               <p className="col2-valeContainerText">Assignment</p>
+              </NavLink>
             </div>
             <div className="col2-valueContainer">
-            <span  class="material-symbols-outlined ">chevron_right</span>
+              <span class="material-symbols-outlined footarrow">chevron_right</span>
+              <NavLink  className="Navlink2" to="/">
+
               <p className="col2-valeContainerText">Blogs</p>
+              </NavLink>
             </div>
             <div className="col2-valueContainer">
-            <span  class="material-symbols-outlined ">chevron_right</span>
+              <span class="material-symbols-outlined footarrow">chevron_right</span>
+              <NavLink  className="Navlink2" to="/aboutus">
+
               <p className="col2-valeContainerText">About Us</p>
+              </NavLink>
             </div>
             <div className="col2-valueContainer">
-            <span  class="material-symbols-outlined ">chevron_right</span>
+              <span class="material-symbols-outlined footarrow">chevron_right</span>
+              <NavLink  className="Navlink2" to="/contactus">
+
               <p className="col2-valeContainerText">Contact Us</p>
+              </NavLink>
             </div>
           </div>
+
           <div className="footer-col3">
             <h3 className="col3-headText">Blogs</h3>
             <div className="col3-container">
               <img className="col3-image" src={img1} alt="" srcset="" />
+              <NavLink className='Navlink' to='/blog/1'>
+
               <p className="col3-text">How to write a perfect SOP?</p>
+              </NavLink>
             </div>
             <div className="col3-container">
               <img className="col3-image" src={img3} alt="" srcset="" />
+              <NavLink className='Navlink' to='/blog/2'>
+
               <p className="col3-text">
                 Why do students get rejected by Universities?
               </p>
+              </NavLink>
             </div>
             <div className="col3-container">
               <img className="col3-image" src={img2} alt="" srcset="" />
+              <NavLink className='Navlink' to='/blog/3'>
+
               <p className="col3-text">
                 How and why do students fail to get visas?
               </p>
+              </NavLink>
             </div>
           </div>
           <div className="footer-col4">

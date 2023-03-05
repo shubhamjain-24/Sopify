@@ -1,11 +1,11 @@
 .B_section2_mainContainer{
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(159, 79, 79);
    
 }
 .B_section2_gridContainer{
     /* background-color: #d83030; */
     display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   /* background-color: aqua; */
   /* grid-auto-rows: 755px; */
   margin-top: 50px;
@@ -15,13 +15,17 @@
 }
 .B_section2_gridDiv{
     /* background-color: aqua; */
-    height: 700px;
+    /* height: 700px; */
+    max-height: fit-content;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 27.2px;
     font-weight: 400;
     color: rgb(54, 54, 54);
+    padding: 20px;
+    /* max-width: fit-content; */
+    max-width: 400px;
 }
 .B_section2_gridDiv:hover .B_section2_gridDivImg{
     -webkit-filter: grayscale(100%); 
